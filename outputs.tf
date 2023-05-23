@@ -1,73 +1,47 @@
-output "Public_ip_N" {
+output "O-RG-name" { 
+  value = var.RG-name 
+}
+output "O-RG-location" { 
+  value = var.RG-location 
+}
+output "O-tag" {
+  value = var.tag
+}
+output "O-VN-name" {
+  value = var.VN-name
+}
+output "O-VN-address" {
+  value = var.VN-address
+}
+output "O-sub-name" {
+  value = var.sub-name
+}
+output "O-sub-add" {
+  value = var.sub-add
+}
+
+output "Public_ip_name" {
   value = var.Public_ip_name
 }
-output "RG_N" {
-  value = var.RG_name
-}
-output "location_N" {
-  value = var.Location
-}
-output "Static_NIC_N" {
+
+output "Static_NIC_name" {
   value = var.Static_NIC_name
 }
-output "S_ip_con_N" {
-  value = var.S_ip_con_name
-}
-output "sub_N" {
-  value = var.subnet
-}
-output "private_ip_address" {
+
+output "private_ip_add" {
   value = var.private_ip_add
 }
-output "vm_N" {
+output "vm_name" {
   value = var.vm_name
 }
-output "virtual_M_size" {
-  value = var.vm_size
-}
-output "image_publisher" {
-  value = var.image_reference_publisher
-}
 
-output "image_offer" {
-  value = var.image_reference_offer
-}
-
-output "image_sku" {
-  value = var.image_reference_sku
-}
-
-output "image_version" {
-  value = var.image_reference_version
-}
-
-output "disk_N" {
-  value = var.os_disk_name
-}
-
-output "disk_caching" {
-  value = var.os_disk_caching
-}
-
-output "disk_option" {
-  value = var.os_disk_option
-}
-
-output "disk_type" {
-  value = var.os_disk_type
-}
-
-output "computer_N" {
+output "computer_name" {
   value = var.computer_name
 }
-
-output "user_N" {
+output "user_name" {
   value = var.user_name
 }
 
-output "user_Pass" {
+output "user_password" {
   value = var.user_password
-}
-output "tags" {
-  value = var.tag
 }
