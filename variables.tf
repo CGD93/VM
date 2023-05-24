@@ -17,8 +17,8 @@ variable "user_password" {}
 variable "NSG-name" {}
 variable "security_rule_name" {}
 variable "security_rule_priority" {} #type : number
-variable "security_rule_direction" {}
-variable "security_rule_access" {}
+variable "security_rule_direction" {} #Inbound / Outbound
+variable "security_rule_access" {} #Allow / deny
 variable "security_rule_protocol" {}
 variable "security_rule_source_port_range" {}
 variable "security_rule_destination_port_range" {}
