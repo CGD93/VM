@@ -16,7 +16,7 @@ variable "user_password" {}
 
 variable "NSG-name" {}
 variable "security_rule_name" {}
-variable "security_rule_priority" {}
+variable "security_rule_priority" {} #type : number
 variable "security_rule_direction" {}
 variable "security_rule_access" {}
 variable "security_rule_protocol" {}
